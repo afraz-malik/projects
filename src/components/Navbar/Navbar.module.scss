@@ -1,10 +1,14 @@
 .nav {
   display: flex;
-  margin-top: 20px;
-  padding: 0px 20px;
-  //   justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  padding: 20px 20px;
   grid-gap: 20px;
   align-items: center;
+
   .logo {
     // width: 50px;
   }
@@ -13,6 +17,7 @@
     color: white;
     border-radius: 69px;
     padding: 10px 13px;
+    text-decoration: none;
     // font-size: 10px;
   }
   .input {
@@ -38,9 +43,26 @@
       bottom: 14px;
       left: 16px;
     }
+    i {
+      position: absolute;
+      cursor: pointer;
+      right: 20px;
+      top: 7px;
+      font-size: 16px;
+      border: 1px solid black;
+      border-radius: 42px;
+      padding: 5px 10px;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
   }
   img {
     width: 42px;
     border-radius: 39px;
   }
+}
+.shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
 }
