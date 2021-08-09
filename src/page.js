@@ -6,32 +6,32 @@ const projects = [
   {
     name: 'Smart Brain',
     img: 'images/smartbrain.png',
-    source: 'https://www.google.com',
-    live: 'https://www.google.com',
+    source: 'https://github.com/afraz-malik/smartBrain',
+    live: 'https://afraz-malik.github.io/smartBrain/',
   },
   {
     name: 'Skip The Agent',
     img: 'images/skiptheagent.png',
-    source: 'https://www.google.com',
-    live: 'https://www.google.com',
+    source: 'https://github.com/afraz-malik/skiptheagent',
+    live: 'https://afraz-malik.github.io/skiptheagent/',
   },
   {
-    name: 'King Clothing',
+    name: 'King Shopping',
     img: 'images/king.png',
-    source: 'https://www.google.com',
-    live: 'https://www.google.com',
+    source: 'https://github.com/afraz-malik/king-shopping',
+    live: 'https://afraz-malik.github.io/king-shopping/',
   },
   {
     name: 'Optimiz Agents',
     img: 'images/optimiz.png',
-    source: 'https://www.google.com',
-    live: 'https://www.google.com',
+    source: 'https://github.com/afraz-malik/optimiz-agents',
+    live: 'https://afraz-malik.github.io/optimiz-agents/',
   },
   {
     name: 'Calculator',
     img: 'images/calculator.gif',
-    source: 'https://www.google.com',
-    live: 'https://www.google.com',
+    source: 'https://github.com/afraz-malik/calculator',
+    live: 'https://afraz-malik.github.io/calculator/',
   },
   {
     name: 'React PHP CRUD',
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     name: 'Robofriends',
-    img: 'images/robots.png',
+    img: 'images/robots.PNG',
     source: 'https://github.com/afraz-malik/robofriends',
     live: 'https://afraz-malik.github.io/robofriends/',
   },
@@ -62,6 +62,8 @@ function Page() {
   const [search, setsearch] = useState({ value: '' })
   const manageSearch = (event) => {
     setsearch({ ...search, value: event })
+    document.getElementById('mySidebar').style.width = '0'
+    document.getElementById('main').style.marginLeft = '0'
   }
   const clearSearch = () => {
     setsearch({ value: '' })

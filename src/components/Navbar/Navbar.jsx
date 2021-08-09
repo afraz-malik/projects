@@ -10,9 +10,16 @@ const Navbar = ({ manageSearch, search, clearSearch }) => {
       setshadow(false)
     }
   })
+  const openNav = () => {
+    document.getElementById('mySidebar').style.width = '250px'
+    document.getElementById('main').style.marginLeft = '250px'
+  }
 
   return (
     <div className={`${NavbarCss.nav} ${shadow ? NavbarCss.shadow : null}`}>
+      <button className={NavbarCss.openbtn} onClick={() => openNav()}>
+        ☰
+      </button>
       <a href="https://afraz-malik.github.io/" className={NavbarCss.home}>
         Home
       </a>

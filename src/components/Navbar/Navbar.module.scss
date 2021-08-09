@@ -8,7 +8,19 @@
   padding: 20px 20px;
   grid-gap: 20px;
   align-items: center;
-
+  transition: margin-left 0.5s;
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    &:hover {
+      background-color: #444;
+    }
+  }
   .logo {
     // width: 50px;
   }
