@@ -5,7 +5,7 @@
   // justify-content: space-between;
   .cards {
     display: flex;
-    width: 90vmax;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,9 @@
       }
       img {
         display: block;
-        width: 400px;
+        // min-width: 300px;
+        // width: 200px;
+        max-width: 400px;
         height: auto;
         border-radius: 25px;
       }
@@ -119,5 +121,10 @@
         }
       }
     }
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .help {
+    display: none;
   }
 }

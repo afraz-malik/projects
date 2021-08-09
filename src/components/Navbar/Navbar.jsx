@@ -43,11 +43,7 @@ const Navbar = ({ manageSearch, search, clearSearch }) => {
         </i>
       </div>
 
-      <img
-        src="\images\anime.png"
-        alt="profile"
-        className={NavbarCss.profile}
-      />
+      <img src="images\anime.png" alt="profile" className={NavbarCss.profile} />
     </div>
   )
 }
