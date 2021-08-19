@@ -4,11 +4,18 @@ import Cards from './components/Cards/Cards'
 
 const projects = [
   {
+    name: 'Faculty Directory',
+    img: 'images/fyp.png',
+    source: 'https://github.com/afraz-malik/fyp',
+    live: 'https://afraz-malik.github.io/fyp/',
+  },
+  {
     name: 'Smart Brain',
     img: 'images/smartbrain.png',
     source: 'https://github.com/afraz-malik/smartBrain',
     live: 'https://afraz-malik.github.io/smartBrain/',
   },
+
   {
     name: 'Skip The Agent',
     img: 'images/skiptheagent.png',
