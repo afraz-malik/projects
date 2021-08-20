@@ -43,8 +43,8 @@ const projects = [
   {
     name: 'React PHP CRUD',
     img: 'images/faculty.png',
-    source: 'https://github.com/afraz-malik/faculty-directory',
-    live: 'https://afraz-malik.github.io/faculty-directory/',
+    source: 'https://github.com/afraz-malik/react-php-crud',
+    live: 'https://afraz-malik.github.io/react-php-crud/',
   },
   {
     name: 'Robofriends',
